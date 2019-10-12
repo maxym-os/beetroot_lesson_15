@@ -1,0 +1,29 @@
+#container {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+}
+
+@media screen and (orientation: portait) {
+    #container {
+        background-color: yellow;
+        width: 250px;
+        height: 500px;
+    }
+}
+
+@media screen and (min-width: 450px) and (max-width:550px) and (orientation: landscape) {
+    #container {
+        background-color: blue;
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: 551px ) {
+    #container {
+        background-color: green;
+        width: 300px;
+        height: 300px;
+    }
+}
